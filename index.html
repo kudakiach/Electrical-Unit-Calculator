@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>StudentID: 2020359 </title>
+  </head>
+  <body>
+      <div class="container">
+          <div class="main">
+            <h1>Elecricity Bill Calculator</h1>
+            <h4>Design and Developed By <span class="title">Shivam kumar mehta </span></h4>
+          </div>
+      </div>
+      <div class="inputs">
+        <form>
+            <div id="error"></div>
+            <label>Enter Number Of Units:</label>
+            <input type="text" name="units" id="units" />
+            <label>Billing Periods</label>
+            <input type="text" name="billing" id="billing" />
+            <button type="submit" name="submit" id="submit">Calculate</button> 
+        </form>
+      </div>
+      <div class="result">
+          <span id="result1">
+              
+          </span>
+          <br>
+          <span id="result2">
+              
+          </span>
+      </div>
+     
+  </body>
+</html>

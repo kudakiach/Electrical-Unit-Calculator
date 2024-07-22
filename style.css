@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main {
+    width:100%;
+    text-align: center;
+    margin: auto;
+}
+.inputs {
+    width:100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em;
+
+}
+#error {
+    color: crimson;
+    margin: 10px 0;
+}
+
+form{
+    width:70%;
+}
+
+label {
+    font-size:18px;
+
+}
+input[type=text] {
+    width:100%;
+    margin:10px 0;
+    padding:5px;
+    height:20px;
+    font-size:18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    padding:0.8em;
+    font-weight: 700;
+    color:cornsilk;
+    background-color: crimson;
+    border:none;
+}
+
+.title {
+    color:crimson;
+}
+.res {
+    font-weight: 700;
+}
+.result {
+    text-align: center;
+    font-size: 18px;
+
+}
